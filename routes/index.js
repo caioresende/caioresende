@@ -32,4 +32,4 @@ exports = module.exports = function(app) {
     
     app.get('/', routes.views.index);
     
-}
+};
