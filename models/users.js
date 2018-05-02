@@ -9,5 +9,7 @@ User.add({
     password: { type: Types.Password, initial: true },
     canAccessKeystone: { type: Boolean, initial: true }
 });
+
+User.relationship({ ref: 'Post', refPath: 'author' });
  
 User.register();

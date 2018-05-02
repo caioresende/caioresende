@@ -1,0 +1,24 @@
+/* HIGHLIGHT CONTENT -----> */
+
+#highlight {
+    position: relative;
+    background-image: url(../../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#message {
+    width: 80%;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    color: white;
+    background: rgba(0,0,0,0.85);
+}
+
+/* <----- HIGHLIGHT CONTENT */

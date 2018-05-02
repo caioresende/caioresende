@@ -1,10 +1,10 @@
 var keystone = require('keystone');
 keystone.init({
   
-  'name': 'My Project',
+  'name': 'Caio Resende',
   
   'favicon': 'public/favicon.ico',
-  'less': 'public',
+  'sass': 'public',
   'static': ['public'],
   
   'views': 'templates/views',
